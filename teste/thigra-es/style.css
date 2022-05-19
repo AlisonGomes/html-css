@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root{
     --cor0: #F4CAFC;
     --cor1: #B8A5D9;
@@ -9,6 +11,27 @@
     --cor3: #5C9CDB;
     --cor4: #96F8FF;
 
-    --fonte-titulo: 'Cookie' , cursive
+    --fonte-padrao: 'Cookie' , cursive;
+    --fonte-titulo: 'Pacifico', cursive;
     
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #2734F0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    
+}
+
+nav {
+    background-color: var(--cor0);
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.265);
 }
